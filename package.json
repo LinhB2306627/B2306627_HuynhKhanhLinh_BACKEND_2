@@ -1,17 +1,18 @@
 {
-  "name": "contactbook-backend",
+  "name": "contactbook-backend-2",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
   "author": "Huynh Khanh Linh",
   "type": "commonjs",
   "main": "server.js",
-"scripts": {
-  "start": "nodemon server.js"
-},
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "dependencies": {
     "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mongodb": "^7.4.0"
   },
   "devDependencies": {
     "eslint": "^10.4.1",
